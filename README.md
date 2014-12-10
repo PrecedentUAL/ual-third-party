@@ -8,7 +8,8 @@
 
 - Simple HTML5 boilerplate with branding
 - Inline CSS
-- Supports order browsers using [HTML5Shiv](https://github.com/aFarkas/html5shiv)
+- Compatible with >= IE8
+- Supports older browsers using [HTML5Shiv](https://github.com/aFarkas/html5shiv)
 - Platform-agnostic
 
 # Guidelines
