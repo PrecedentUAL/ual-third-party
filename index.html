@@ -20,6 +20,7 @@
 		*/
 		body {
 			font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			color: #000000;
 		}
 
 		.wrapper {
@@ -103,6 +104,29 @@
 			}
 		}
 
+		/* Suggested Horizontal Menu */
+		.horizontal-menu {
+			background: #E9E9E9;
+		}
+
+		.horizontal-menu ul {
+			border-left: 1px solid #FFFFFF;
+		}
+
+		.horizontal-menu ul li {
+			display: inline-block;
+			border-right: 1px solid #FFFFFF;
+			font-size: 14px;
+			line-height: 21px;
+		}
+
+		.horizontal-menu a {
+			display: block;
+			padding: 7px 14px 8px;
+			color: #000000;
+			text-decoration: none;
+		}
+
 		</style>
 
 		<!--[if lt IE 9]>
@@ -127,14 +151,27 @@
 			</div>
 		</header>
 
-		<!-- Feel free to change all of this! -->
+		<!-- Navigation. This is a suggested horizontal menu. The important point is that none of your local navigation is positioned above this nav i.e. in the UAL Third-Party Header. This rule also applies to e.g. hamburger icons that appear as part of a responsive design. -->
+		<nav class="horizontal-menu">
+			<div class="wrapper">
+				<ul>
+					<li><a href="#">Service Home</a></li>
+					<li><a href="#">Link #1</a></li>
+					<li><a href="#">Link #2</a></li>
+					<li><a href="#">Link #3</a></li>
+					<li><a href="#">Link #4</a></li>
+					<li><a href="#">Link #5</a></li>
+				</ul>
+			</div>
+		</nav>
+
 		<section style="padding: 40px 0;">
+			<!-- Feel free to change all of this! -->
 			<div class="wrapper" style="min-height:800px">
 				<h1>Hello World</h1>
 				<p>Your content goes here!</p>
 			</div>
 		</section>
-
 
 		<!-- UAL Third-Party Footer -->
 		<footer class="ual-footer">
